@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/ahme1636/OneDrive%20-%20Syddansk%20Erhvervsskole/Dokumenter/nextjs-app/src/app/components/header.tsx"],"sourcesContent":["import Image from \"next/image\";\r\n\r\nconst Header = () => {\r\n    return (\r\n        <header className=\"opacity-25 bg-gradient-to-r from-cyan-500 to-blue-500 bg-opacity-50 backdrop-blur-md w-full h-20\">\r\n            <Image\r\n                src=\"/path/to/your/image.jpg\" // Replace with your image path\r\n                alt=\"Header image\"\r\n                width={100}\r\n                height={100}\r\n                className=\"rounded-full mx-auto\"\r\n            />\r\n            <h1 className=\"opacity-100 text-white text-2xl font-bold text-center\">Welcome, User47563256</h1>\r\n        </header>\r\n    );\r\n};\r\n\r\nexport default Header;\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,SAAS;IACX,qBACI,8OAAC;QAAO,WAAU;;0BACd,8OAAC,6HAAA,CAAA,UAAK;gBACF,KAAI,0BAA0B,+BAA+B;;gBAC7D,KAAI;gBACJ,OAAO;gBACP,QAAQ;gBACR,WAAU;;;;;;0BAEd,8OAAC;gBAAG,WAAU;0BAAwD;;;;;;;;;;;;AAGlF;uCAEe"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/ahme1636/OneDrive%20-%20Syddansk%20Erhvervsskole/Dokumenter/nextjs-app/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport Header from './components/header'; // Relative path if both are under 'app'\n\n\nexport default function Home() {\n  return (\n    <div className=\"min-h-screen bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 \">\n      <Header/>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AACA,kOAA0C,wCAAwC;;;AAGnE,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,mIAAA,CAAA,UAAM;;;;;;;;;;AAGb"}},
+    {"offset": {"line": 73, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 84, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 84, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
