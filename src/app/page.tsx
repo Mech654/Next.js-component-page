@@ -10,16 +10,17 @@ import Button1 from "./components/Button1";
 import Button2 from "./components/Button2";
 import FloatingMenu from "./components/FloatingMenu";
 import Form1 from "./components/Form1";
+import Form2 from "./components/Form2"; 
 
 const components = [
    LoadingCircle, PulsingCircle, RotatingDots, HamburgerMenu,
-  Accordion, Button1, Button2, FloatingMenu, Form1
+  Accordion, Button1, Button2, FloatingMenu, Form1, Form2
 ];
 
 
 export default function Home() {
   return (
-    <body className="min-h-screen bg-gradient-to-r from-gray-900 to-black">
+    <body className="min-h-screen bg-gradient-to-r from-gray-700 to-gray-900">
       <Header headertext="Username" />
 
       {components.map((Component, index) => (
