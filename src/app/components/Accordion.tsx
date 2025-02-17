@@ -33,7 +33,7 @@ const Accordion = () => {
       {items.map((item, index) => (
         <div 
           key={item.id}
-          className="mb-3 border rounded-lg dark:border-gray-700 overflow-hidden"
+          className="mb-3 border rounded-lg m-10 dark:border-gray-700 overflow-hidden"
         >
           {/* Accordion Header */}
           <button

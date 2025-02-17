@@ -13,23 +13,21 @@ import Form1 from "./components/Form1";
 import Form2 from "./components/Form2"; 
 
 const components = [
-   LoadingCircle, PulsingCircle, RotatingDots, HamburgerMenu,
+   LoadingCircle, RotatingDots, HamburgerMenu,
   Accordion, Button1, Button2, FloatingMenu, Form1, Form2
 ];
 
 
 export default function Home() {
   return (
-    <body className="min-h-screen bg-gradient-to-r from-gray-700 to-gray-900">
+    <body className="min-h-screen bg-gradient-to-r from-gray-800 to-gray-900">
       <Header headertext="Username" />
-
       {components.map((Component, index) => (
         <div key={index} className="flex flex-col items-center justify-center p-10">
           <ThickText text={`Component ${index + 1}`} />
           <Component />
         </div>
       ))}
-
     </body>
   );
 }
