@@ -33,7 +33,7 @@ const Accordion = () => {
       {items.map((item, index) => (
         <div 
           key={item.id}
-          className="mb-3 border rounded-lg m-10 dark:border-gray-700 overflow-hidden"
+          className="mb-3 border rounded-lg dark:border-gray-700 overflow-hidden"
         >
           {/* Accordion Header */}
           <button
@@ -56,9 +56,10 @@ const Accordion = () => {
             className={`transition-all duration-300 ease-in-out 
                       ${openIndex === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
           >
-            <div className="px-5 pb-4 pt-1 text-gray-600 dark:text-gray-300">
+            <div className="px-5 pb-4 pt-1 mt-1 text-gray-600 dark:text-gray-300">
               {item.answer}
             </div>
+
           </div>
         </div>
       ))}
